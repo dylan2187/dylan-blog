@@ -1,0 +1,23 @@
+.navbar {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	.logoArea {
+		font-size: 25px;
+		font-weight: bolder;
+		margin-right: 100px;
+	}
+	.linkArea {
+		a {
+			font-size: 18px;
+			padding: 0 20px;
+			color: #515767;
+		}
+		.active {
+			color: #1e80ff;
+		}
+	}
+}
